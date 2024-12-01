@@ -17,8 +17,8 @@ body {
   background-color: #F5F4F0;
 }
 
-img {
-  width: 1120px;
+.content-images {
+  width: 100%;
   border-radius: 28px;
 }
 
@@ -29,6 +29,7 @@ h3 {
 }
 
 h1 {
+  margin: 0px;
   font-size: 36px;
 }
 
@@ -41,13 +42,33 @@ h3 {
   vertical-align: middle;
 }
 
-#divider {
-  margin-bottom: 64px;
+main {
+  margin-top: 64px;
 }
+
+footer {
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
 
 .card-content {
   padding: 0;
   list-style: none;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+section {
+  margin-bottom: 40px;
 }
 
 .card-travel {
@@ -71,34 +92,45 @@ h3 {
   margin-top: 24px;
 }
 
-.title {
-  margin-bottom: 40px;
-}
-
 .title-headline {
   color: #E1624F;
   font-weight: bold;
+  margin-bottom: 8px;
 }
 
-.options {
-  list-style: disc;
-}
-.option {
-  font-weight: bold;
+.recomendation {
+  margin-bottom: 0;
+
+  p {
+    margin-bottom: 0px;
+  }
+
+  .options {
+    list-style: disc;
+  }
+
+  .option {
+    font-weight: bold;
+
+    .option-history {
+      color: #0C51A7
+    }
+
+    .option-family {
+      color: #E5245E;
+    }
+
+    .option-couples {
+      color: #591B98;
+    }
+
+    .option-budget {
+      color: #E95E10;
+    }
+  }
 }
 
-.option-history {
-  color: #0C51A7
-}
-
-.option-family {
-  color: #E5245E;
-}
-
-.option-couples {
-  color: #591B98;
-}
-
-.option-budget {
-  color: #E95E10;
+.credits {
+  margin-top: 65px;
+  text-align: center;
 }
